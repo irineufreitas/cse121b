@@ -35,6 +35,7 @@ let foods = ['Japanese Food', 'Brazilian Barbecue', 'Indian Curry and Nan', 'Tac
 foodElement.textContent = foods.join(', ');
 let favfood = ['Pizza di Napoli'];
 
+
 foods.push(favfood);
 
 foodElement.innerHTML += `<br>${favfood}`;
